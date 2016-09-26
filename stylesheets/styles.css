@@ -5,7 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face{
+  font-family: 'LemonMilk';
+  src: url("../fonts/LemonMilk.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'OpenSansLightItalic';
   src: url("../fonts/OpenSans-LightItalic-webfont.eot");
