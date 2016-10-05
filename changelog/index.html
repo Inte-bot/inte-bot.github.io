@@ -63,6 +63,32 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
+     pre {
+        font-family: "Courier 10 Pitch", Courier, monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+    }       
+    
+    code {
+        font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+        background: #8b8b8b;
+    }
+    
+    #content code {
+        display: block;
+        padding: 0.5em 1em;
+        border: 1px solid #bebab0;
+    }
   #heading {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -102,21 +128,25 @@
 
       <section>
         <div id="title">
-          <h1>INTEBOT</h1>
+          <h1>InteBot - Changelog</h1>
           <p></p>
           
         </div>
-        <h2>Screenshots of InteBot</h2>
-        <table id="heading">
-          <tr>
-            <td><a href="http://puu.sh/rsmia.png"><img src="http://puu.sh/rsmia.png" /></a></td>
-            <td><a href="http://puu.sh/rsmqQ.png"><img src="http://puu.sh/rsmqQ.png" /></a></td>
-            <td><a href="http://puu.sh/rtrD5.png"><img src="http://puu.sh/rtrD5.png" /></a></td>
-          </tr>
-          <tr>
-            <td><a href="http://puu.sh/ry2PI.png"><img src="http://puu.sh/ry2PI.png" /></a></td>
-          </tr>
-        </table>
+        <div id="content">
+        <h2>Version 13.23-23a2</h2>
+        <code>
+        - Stable at last. Stats are on hold
+        - new channel implemented [donated]
+        - mute and unmute now use Streamer, as well as bot admins. 
+          Streamer is channel exclusive.
+        - :commands command added. 
+
+        Upcoming:
+        - :faq command, works the same as :commands
+        - :version, which is obvious.
+        </code>
+        <br/>
+        </div>
 
         <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/LewdCode">LewdCode</a></span>
